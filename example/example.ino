@@ -1,11 +1,3 @@
-# MCP4728
-Arduino library for [MCP4728](https://www.microchip.com/wwwproducts/en/MCP4728) quad channel, 12-bit voltage output Digital-to-Analog Convertor with non-volatile memory and I2C compatible Serial Interface
-
-This library is highly inspired from [this great work](https://github.com/BenoitSchillings/mcp4728/tree/master/examples/BasicUse)
-
-## Usage
-
-```
 #include <Wire.h>
 #include "MCP4728.h"
 
@@ -77,8 +69,3 @@ void printStatus()
     }
     Serial.println(" ");
 }
-```
-
-## License
-
-MIT
