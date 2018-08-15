@@ -1,0 +1,20 @@
+{
+    "name": "MCP4728",
+    "keywords": "i2c,wire,dac",
+    "description": "Arduino library for MCP4728 quad channel, 12-bit voltage output Digital-to-Analog Convertor with non-volatile memory and I2C compatible Serial Interface",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/hideakitai/MCP4728.git"
+    },
+    "authors":
+    {
+        "name": "Hideaki Tai",
+        "url": "https://github.com/hideakitai",
+        "maintainer": true
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
