@@ -7,7 +7,7 @@ void setup()
 {
     Serial.begin(115200);  // initialize serial interface for print()
 
-    Wire.begin(21, 22);
+    Wire.begin();
     dac.attatch(Wire, 14);
     dac.readRegisters();
 
