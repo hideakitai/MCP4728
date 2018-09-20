@@ -40,7 +40,7 @@ public:
 
     uint8_t analogWrite(DAC_CH ch, uint16_t data, bool b_eep = false)
     {
-        analogWrite((uint8_t)ch, data, b_eep);
+        return analogWrite((uint8_t)ch, data, b_eep);
     }
 
     uint8_t analogWrite(uint8_t ch, uint16_t data, bool b_eep = false)
