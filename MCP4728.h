@@ -24,7 +24,7 @@ public:
     enum class PWR_DOWN { NORMAL, GND_1KOHM, GND_100KOHM, GND_500KOHM };
     enum class GAIN { X1, X2 };
 
-    void attatch(TwoWire& w, uint8_t pin)
+    void attach(TwoWire& w, uint8_t pin)
     {
         wire_ = &w;
         pin_ldac_ = pin;
