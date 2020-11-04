@@ -8,7 +8,7 @@ void setup()
     Serial.begin(115200);  // initialize serial interface for print()
 
     Wire.begin();
-    dac.attatch(Wire, 14);
+    dac.attach(Wire, 14);
     dac.readRegisters();
 
     dac.selectVref(MCP4728::VREF::VDD, MCP4728::VREF::VDD, MCP4728::VREF::INTERNAL_2_8V, MCP4728::VREF::INTERNAL_2_8V);
