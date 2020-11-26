@@ -5,7 +5,7 @@ This library is highly inspired from [this great work](https://github.com/Benoit
 
 ## Usage
 
-```
+```C++
 #include <Wire.h>
 #include "MCP4728.h"
 
